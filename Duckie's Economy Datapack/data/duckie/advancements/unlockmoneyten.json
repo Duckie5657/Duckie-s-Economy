@@ -1,0 +1,13 @@
+{ 
+  "criteria": {
+      "recipeunlocked": {
+          "trigger": "minecraft:recipe_unlocked",
+          "conditions": {
+              "recipe": "duckie:tendollarstofivedollars"
+          }
+      }
+  },
+  "rewards": {
+      "function": "duckie:recipe_functions/recipeunlockedtentofive"
+  }
+}

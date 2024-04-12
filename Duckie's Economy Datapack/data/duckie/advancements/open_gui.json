@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:bat_spawn_egg"
+                            ],
+                            "nbt": "{CustomTable:1b}"
+                        }
+                    }
+                ],
+                "location": []
+            }
+        }
+    },
+    "rewards": {
+        "function": "duckie:placeholder"
+    }
+}

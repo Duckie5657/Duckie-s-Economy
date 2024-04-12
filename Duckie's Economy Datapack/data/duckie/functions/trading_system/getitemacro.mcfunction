@@ -1,0 +1,1 @@
+$item replace entity $(author) weapon.mainhand from entity $(name)

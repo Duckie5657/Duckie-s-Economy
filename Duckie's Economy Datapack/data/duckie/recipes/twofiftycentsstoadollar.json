@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+      {"item": "minecraft:coast_armor_trim_smithing_template",
+      "data": 0 },
+      {"item": "minecraft:coast_armor_trim_smithing_template",
+      "data": 0 } ],
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

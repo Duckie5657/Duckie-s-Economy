@@ -1,0 +1,3 @@
+# use the temp object to say who to send the thingy to
+$tellraw $(author) {"text": "$(author) Your trade has been accepeted Click this message to verify the trade", "color":"#81fc81","clickEvent":{"action": "run_command","value":"/function duckie:trading_system/senditemacro"}}
+$tellraw $(name) {"text": "$(name) Click this to verify this trade verifing will send the item to the other person", "color":"#81fc81","clickEvent":{"action": "run_command","value":"/function duckie:trading_system/senditemacrotwo"}}

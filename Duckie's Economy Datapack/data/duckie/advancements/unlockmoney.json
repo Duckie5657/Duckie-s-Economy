@@ -1,0 +1,13 @@
+{ 
+  "criteria": {
+      "recipeunlocked": {
+          "trigger": "minecraft:recipe_unlocked",
+          "conditions": {
+              "recipe": "duckie:onedollartotwentyfivecents"
+          }
+      }
+  },
+  "rewards": {
+      "function": "duckie:recipe_functions/recipeunlockedonedollar"
+  }
+}
